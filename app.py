@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 # Set up Gemini API key
-genai.configure(api_key=os.getenv("AIzaSyC2GNxkOHhW8CI0P3IOtEtWVY71Ms4hAYE"))  # Replace with your API key
+genai.configure(api_key=os.getenv("AIzaSyBTQR5HbWEJ3eWc3YyVU2sUibjKqHzfFJw"))  # Replace with your API key
 
 def generate_poem(image, prompt, language):
     """Generate a poem based on the image and prompt, optimized for speed."""
